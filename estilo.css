@@ -1,0 +1,78 @@
+*{
+    background-color: black;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+header #menu ul{
+    margin: 0;
+    padding: 0;
+   flex-wrap: wrap;
+   background-color: black;
+   min-width:250px;
+}
+
+header #menu ul li{
+    display: inline-block;/*fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales.*/
+    padding: 12px;
+    vertical-align: middle;/*Especificamos el alineado vertical y nuestro middle alinea la mitad del elemento */
+    flex-wrap: wrap;
+}
+
+header #menu ul li a{
+    flex-wrap: wrap;
+    display: inline-block;
+    color: white;/*Declaramos el color de nuestro elemnto*/
+    text-decoration: none;/*Para que nuesto elemnto no este decorado*/
+}
+
+
+header #menu ul li a:hover{
+    color: rgb(247, 191, 190);/*Declaramos el color negro para cuando nuestro cursor choque con el elemento*/
+    flex-wrap: wrap;
+}
+header #menu ul #logo{/*establecemos el area del margen de nuestro elemento*/
+    margin-right: 0%;
+    margin-left: 4%;
+    flex-wrap: wrap;
+}
+header #menu ul #marca{/*establecemos el area del margen de nuestro elemento*/
+    margin-right: 20%;
+    margin-left: 0%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+   flex-wrap: wrap;
+}
+.home{
+  display: flex;
+   flex-wrap: wrap; 
+}
+.in-flex{
+  flex:1;
+  min-width:250px;
+  border-style: solid;
+  padding: 20px;
+}
+.in-flex div{
+  padding: 25px;
+  margin: 20px;
+}
+h1{
+font-size: 25px;
+}
+p2{
+font-size: 20px;
+color: black;
+text-shadow: 2px 2px 5px lightblue;
+}
